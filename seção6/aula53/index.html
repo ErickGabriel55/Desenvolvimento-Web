@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        /* É IMPORTANTE MANTER A ORDEM DE PROPRIEDADES DE LINKS */
+        a{
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+        /* Links não visitados e Links visitados*/
+        a:link, a:visited{
+            color: #b9c941;
+        }
+
+        
+        /* Links Hover, passa o cursor sobre o link */
+        a:hover{
+            color: #FFF;
+            background: #6d790f;
+        }
+        /* Links Ativos, quando vc clica e segura */
+        a:active{
+            color: #e4f371;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com.br/?hl=pt-BR">Google</a> |
+    <a href="https://www.yotube.com.br/?hl=pt-BR">youtube</a> |
+    <a href="https://www.tecmundo.com.br/">Tec Mundo</a> |
+    <a href="https://www.tecmundo.com.br/">Tec Mundo</a> |
+</body>
+</html>

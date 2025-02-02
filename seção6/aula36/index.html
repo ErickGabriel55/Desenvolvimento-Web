@@ -1,0 +1,74 @@
+<!--A div era usada para dividir o site, mas hj em dia já possuímos o header, main, footer e outros.utilizamos a div quando queremos agrupar alguns elementos, pois a div é do tipo block level já o span é do tipo inline level-->
+
+
+!<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes-Ids</title>
+
+    <style>
+        
+        #topo{
+            background-color: blue;
+        }
+
+        #conteudo{
+            background: red;
+        }
+
+        #rodape{
+            background-color: green;
+        }
+
+        .produto{
+            background-color: gray;
+            margin: 10px;
+        }
+
+        .azul{
+            background-color: blue;
+        }
+
+    </style>
+
+</head>
+<body>
+   
+    <header>
+        <div id="topo">
+            <img src="imagens/amazon.png" alt="Logo da Amazon">
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div id="conteudo">
+                <div class="produto">
+                    Produto 1
+                </div>
+                <div class="produto">
+                    Produto 2
+                </div>
+                <div class="produto">
+                    Produto 3
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="rodape" >
+            Todos os <span class="azul">direitos</span> reservados &copy;
+        </div>
+    </footer>
+
+   
+</body>
+</html>

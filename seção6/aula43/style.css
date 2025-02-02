@@ -1,0 +1,45 @@
+body{
+    background: #d2d2c1 url('/aula43/imagens/fundo.png');
+    font: 16px Arial,Helvetica, sans-serif;
+}
+
+header{
+    width: 900px;
+
+}
+
+nav{
+    background: #c5c5b2;
+    padding: 25px;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+main{
+    width: 900px;
+    height: 500px;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+section{
+    background-color: #e8e8d9;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.img-campanha{
+    border: 10px inset #c3c3ae;
+}
